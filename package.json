@@ -16,6 +16,7 @@
   "author": "Ajoke Ibrahim",
   "license": "ISC",
   "dependencies": {
-    "owl.carousel": "^2.3.4"
+    "owl.carousel": "^2.3.4",
+    "swiped-events": "^1.1.6"
   }
 }
