@@ -24,17 +24,16 @@ body {
 .navbar-brand {
   font-family: "Assistant", sans-serif;
   font-size: 30px;
-  color:  rgb(0, 195, 255);
+  color: rgb(0, 195, 255);
 }
 .nav-item {
   font-family: "Assistant", sans-serif;
   font-size: 20px;
-  color:  rgb(0, 195, 255);
+  color: rgb(0, 195, 255);
 }
 .navbar-nav {
   margin-left: 38rem;
 }
-
 .bounce-hover {
   display: inline-block;
   vertical-align: middle;
@@ -73,7 +72,7 @@ body {
 }
 
 .owl-carousel .owl-slide {
-  background-position:center ;
+  background-position: center;
   object-fit: cover;
 }
 
@@ -152,12 +151,17 @@ body {
 h2 {
   font-family: "Nunito Sans", sans-serif;
   font-size: 50px;
+  outline-color: ;
 }
 
 .owl-slide-subtitle {
   font-weight: bolder;
   font-size: large;
   font-family: "Work Sans", sans-serif;
+  color: rgb(0, 195, 255);
+}
+.owl-slide-title {
+  color: rgb(0, 195, 255);
 }
 
 section {
@@ -286,13 +290,17 @@ h4 {
   .btn-primary-outline {
     font-weight: bold;
   }
-  .bounce-hover {
-    visibility: hidden;
+  .navbar-nav {
+    margin-left: 0;
   }
   .head-name {
     margin-bottom: -3rem;
     margin-right: 6rem;
     font-size: 28px;
+  }
+  .bounce-hover {
+    color: rgb(0, 195, 255);
+    font-weight: bold;
   }
 }
 
@@ -300,37 +308,49 @@ h4 {
   .owl-carousel .owl-nav {
     top: 5%;
   }
+  .bounce-hover {
+    color: rgb(0, 195, 255);
+    font-weight: bold;
+  }
 
   .owl-carousel .owl-nav svg {
     width: 24px;
     height: 24px;
   }
+  .navbar-nav {
+    margin-left: 0;
+  }
 }
 
-  @media screen and (min-width: 360px) and (max-width: 800px) {
-    h2 {
-      font-family: "Nunito Sans", sans-serif;
-      font-size: 5vh;
-      font-weight: bold;
-      color: rgb(0, 195, 255);
-    }
-    .owl-slide-text {
-      margin-left: -2rem;
-    }
-    .owl-subtitle {
-      font-family: "Work Sans", sans-serif;
-      font-size: 4rem;
-      font-weight: bolder;
-    }
-    .btn-primary-outline {
-      font-weight: bold;
-    }
-    .bounce-hover {
-      visibility: hidden;
-    }
-    .head-name {
-      margin-bottom: -3rem;
-      margin-right: 6rem;
-      font-size: 28px;
-    }
+@media screen and (min-width: 360px) and (max-width: 800px) {
+  h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 5vh;
+    font-weight: bold;
+    color: rgb(0, 195, 255);
+  }
+  .owl-slide-text {
+    margin-left: -2rem;
+  }
+  .navbar-nav {
+    margin-left: 0;
+  }
+  .owl-subtitle {
+    font-family: "Work Sans", sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+  .btn-primary-outline {
+    font-weight: bold;
+  }
+  .bounce-hover {
+    color: rgb(0, 195, 255);
+    font-weight: bold;
+  }
+
+  .head-name {
+    margin-bottom: -3rem;
+    margin-right: 6rem;
+    font-size: 28px;
+  }
 }
