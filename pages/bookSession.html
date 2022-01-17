@@ -20,7 +20,7 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./booksess.css" />
+    <link rel="stylesheet" href="../pages//booksess.css" />
     <link
       href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
       rel="stylesheet"
@@ -44,7 +44,7 @@
 
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg ">
-        <a class="navbar-brand" href="./index.html">SpinWellness and Yoga</a>
+        <a class="navbar-brand" href="../index.html">SpinWellness and Yoga</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -66,22 +66,22 @@
       <section class="hero-section">
         <div class="card-grid">
           <a class="card" href="#privateSessions">
-            <div class="card__background" style="background-image: url(./images/Private.JPG)"></div>
+            <div class="card__background" style="background-image: url(../images/Private.JPG)"></div>
             <div class="card__content">
               <p class="card__category">SpinWellness and Yoga's</p>
               <h3 class="card__heading">Private Sessions</h3>
             </div>
           </a>
           <a class="card" href="#">
-            <div class="card__background" style="background-image: url(./images/nam.jpg)"></div>
+            <div class="card__background" style="background-image: url(../images/nam.jpg)"></div>
             <div class="card__content">
                 <p class="card__category">SpinWellness and Yoga's</p>
                 <h3 class="card__heading">Corporate Products</h3>
               </div>
             
           </a>
-          <a class="card" href="#">
-            <div class="card__background" style="background-image: url(./images/group.JPG)"></div>
+          <a class="card" href="#groupsessions">
+            <div class="card__background" style="background-image: url(../images/group.JPG)"></div>
             <div class="card__content">
                 <p class="card__category">SpinWellness and Yoga's</p>
                 <h3 class="card__heading">Group Sessions</h3>
@@ -89,7 +89,7 @@
            
           </li>
           <a class="card" href="#">
-            <div class="card__background" style="background-image: url(./images/done12.JPG)"></div>
+            <div class="card__background" style="background-image: url(../images/done12.JPG)"></div>
             <div class="card__content">
               <p class="card__category">SpinWellness and Yoga's</p>
               <h3 class="card__heading">Seminars, Retreats, Consultations</h3>
@@ -101,8 +101,8 @@
       <!--Session Option Ends-->
 
       <!--Private Sessions-->
-      <section class="container session-details-container">
-        <div id="privateSessions" class="card-body">
+      <section class="container ">
+        <div id="privateSessions" class="card-body session-details-container">
             <h4 class="card-title">
               <a href="#">Private Sessions</a>
             </h4>
@@ -110,11 +110,12 @@
                 convenience of the students. Sessions range from 30minutes to 1hour 30 minutes, and are tailored specifically
                 to meet the requirements of the student. Sessions are best for those whose schedules allow for specific free 
                 periods of the week. <br>
-                <a href="./privatesessionsform.html"> <button>Sign Up</button> for Private Sessions
+                <a href="./privatesessionsform.html"> 
             </p>
-          </div>
+            <button class="sign-up"> Sign Up</button>
+          </div> <br>
 
-          <div class="card-body">
+          <div id="groupsessions" class="card-body session-details-container">
             <h4 class="card-title">
               <a href="#">Group Sessions</a>
             </h4>
@@ -122,13 +123,15 @@
                 convenience of the students. Sessions range from 30minutes to 1hour 30 minutes, and are tailored specifically
                 to meet the requirements of the student. Sessions are best for those whose schedules allow for specific free 
                 periods of the week. <br>
-                <button>Sign Up</button> for Group Sessions</p>
-          </div>
+                <a href="./groupSessions.html"> 
+                </p>
+                <button class="sign-up">Sign Up</button>
+          </div> <br>
         </div>
     
           <!--Group Sessions Ends-->
 
-          <div class="card-body">
+          <div id="corporateSessions" class="card-body session-details-container">
             <h4 class="card-title">
               <a href="#">Corporate Sesssions</a>
             </h4>
@@ -136,24 +139,24 @@
                 are available to aid the productivity of the Individuals and employees of these bodies. Custom products which directly
                 reflects the needs of a firm can also be curated as required by the Client, or deemed necessary by SpinWellness.
                 <br>
-                <button>Click</button> to see our numerous Corporate Wellness product offerings.
+                <a href="../pages/contactnew.html">
+                <button  class="sign-up">Contact Us</button>
             
             </p>
-          </div>
-        </div>
+          </div> <br>
     
           <!--Corporate Sessions Ends-->
 
-          <div class="card-body">
+          <div id="events" class="card-body session-details-container">
             <h4 class="card-title">
               <a href="#">Events, Retreats, Workshops</a>
             </h4>
             <p class="card-text">SpinWellness alos hosts series of wellness events, seminars, retreats, and other wellness programs
                 Recordings of these are also available for those who might have missed any. 
-                <br>
-                <button>Click</button> to see the list of upcoming events and register.
-            
+                <br> 
+                <a href="https://tix.africa/events/manage/spinwellness-sensual-yin-yoga">
             </p>
+            <button class="sign-up">View Events</button>
           </div>
             <!--Retreats/ Events Ends-->
 

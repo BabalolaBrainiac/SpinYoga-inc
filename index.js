@@ -64,4 +64,6 @@ $(".owl-carousel").on("initialized.owl.carousel", () => {
       top: `${res}px`,
       left: `${left}px`
     });
+
 }
+
